@@ -1,0 +1,183 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+}
+#header .logo img{
+    width: 100%;
+}
+#header .nav-custom{
+    height: 100%;
+}
+#header .nav-custom ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    height: 100%;
+}
+#header .nav-custom ul li{
+    display: block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+#header .nav-custom ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#header .btn-set{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header .btn-set a{
+    color:#fff;
+    padding: 5px 25px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: block;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+#header .btn-set a.demo{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+#header .btn-set a.user{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section .banner{
+    background-image: url('../images/banner-bg.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#section .banner .text-wrap {
+    color: #fff;
+    height: 100%;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+}
+#section .banner .text-wrap h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+#section .banner .text-wrap h1 span{
+    color: #010255;
+    text-decoration: underline;
+}
+#section .banner .text-wrap a{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#section .banner .text-wrap a:first-child{
+    border-color: #010255;
+    color: #010255;
+    border-radius: 25px;
+}
+#section .banner .img-box img{
+    width: 100%;
+}
+#section .products{
+    padding: 100px 0;
+}
+#section .products h1,#section .services h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+#section .products .text-wrap{
+    padding-left: 50px;
+    position: relative;
+}
+#section .products h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+#section .products h3.gradient-text span{
+    background: linear-gradient(91deg, #00D650 0%, #008ED2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#section .products h3::before{
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    content: "\f061";
+    font-weight: bold;
+    left: 0;
+    font-size: 20px;
+}
+#section .products h3.gradient-text::before{
+    color: #01D451;
+}
+#section .products .img-box img {
+    width: 100%;
+}
+#section .about{
+    background-image: url('../images/banner-bg.png');
+    padding: 100px 0;
+}
+#section .about p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+#section .services{
+    padding: 100px 0;
+    text-align: center;
+}
+#section .services .panel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#section .services .panel .serve{
+    max-width: 23%;
+    flex: 0 0 23%;
+    -ms-flex: 0 0 23%;
+    border-radius: 10px;
+    border: 1px solid #CBCCCE;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(25px);
+    padding: 25px;
+    margin: 10px;
+}
+#section .services .panel .serve img{
+    width: 82px;
+}
+#section .services .panel .serve h3{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+}
+#section .services .panel .serve p{
+    font-size: 13px;
+    color: #848484;
+}
