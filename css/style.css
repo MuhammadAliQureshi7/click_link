@@ -181,3 +181,280 @@ body{
     font-size: 13px;
     color: #848484;
 }
+#section .pricing{
+    padding: 100px 0;
+    background-color: rgba(0, 142, 210, 0.10);
+}
+#section .pricing h4{
+    text-align: center;
+    color: #008ED2;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+#section .pricing h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+#section .pricing p{
+    text-align: center;
+    color: #848484;
+}
+#section .pricing .card{
+    background-color: #fff;
+    border: 0;
+    border-radius: 25px;
+    padding: 50px 35px;
+    margin-top: 100px;
+}
+#section .pricing .card.card-dark{
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+#section .pricing .card .details{
+    display: flex;
+}
+#section .pricing .card .details .icon{
+    max-width: 72px;
+    flex: 0 0 72px;
+}
+#section .pricing .card .details .icon img{
+    width: 100%;
+}
+#section .pricing .card .details .headings{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#section .pricing .card .details .headings h4{
+    color: #6F6C90;
+    font-size: 16px;    
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0; 
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#section .pricing .card .details .headings h2{
+    color: #170F49;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px; 
+}
+#section .pricing .card p{
+    color: #6F6C90;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px 0;
+}
+#section .pricing .card h3{
+    color: #170F49;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+}
+#section .pricing .card h3 small{
+    color: #6F6C90;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+#section .pricing .card h5{
+    color: #170F49;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 5px 0;
+}
+#section .pricing .card ul{
+    padding-top: 10px;
+    position: relative;
+}
+#section .pricing .card ul li{
+    display: block;
+    margin: 10px 0;
+    color: #170F49;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#section .pricing .card ul li::before{
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    content: "\f058";
+    font-weight: bold;
+    left: 0;
+    font-size: 18px;
+}
+#section .pricing .card a{
+    background-color: #020100;
+    color: #fff;
+    padding: 20px 35px;
+    display: block;
+    text-align: center;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+#section .pricing .card.card-dark h4,#section .pricing .card.card-dark h2,#section .pricing .card.card-dark p,#section .pricing .card.card-dark h3,#section .pricing .card.card-dark h3 small,#section .pricing .card.card-dark h5,#section .pricing .card.card-dark ul li{
+    color: #fff !important;
+}
+#section .pricing .card.card-dark a{
+    background-color: #fff;
+    color: #000;
+}
+#section .pricing .card.card-dark .badge{
+    background-color: #353433;
+    padding: 10px 20px;
+    color: #fff;
+    position: absolute;
+    right: 25px;
+    font-size: 12px;
+    top: 40px;
+    border-radius: 7px;
+    font-weight: normal;
+}
+#section .about h2{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+#section .about h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#section .about h4 strong{
+    font-weight: 700;
+}
+#section .contact{
+    background-image: url('../images/contact-bg.png');
+    background-size: cover;
+    padding: 100px 0;
+}
+#section .contact h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 50px;
+}
+#section .contact ul li{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+    display: block;
+    display: flex;
+}
+#section .contact ul li img{
+    max-width: 40px;
+    flex: 0 0 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#section .contact iframe{
+    width: 100%;
+    border-radius: 25px;
+    height: 250px;
+}
+#section .contact .form{
+    background-image: url('../images/form-bg.png');
+    background-size: cover;
+    padding: 80px 50px 50px;
+    border-radius: 10px;
+    background-position: center;
+}
+#section .contact .form h5{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#section .contact .form input, #section .contact .form textarea{
+    background-color: #fff;
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+#section .contact .form button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #008ED2;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+}
+#footer{
+    background: #F2F2F2;
+    padding: 50px 0;
+}
+#footer .logo img{
+    width: 100%;
+}
+#footer .contact-details{
+    padding: 10px 0;
+}
+#footer .contact-details p{
+    margin: 0;
+}
+#footer .contact-details p a{
+    color: #000;
+    font-weight: 500;
+}
+#footer .copyright address{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: right;
+}
+#footer .footer-links{
+    margin-top: 50px;
+}
+#footer .footer-links h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+#footer .footer-links ul{
+    margin: 0;
+    padding: 0;
+}
+#footer .footer-links ul li{
+    display: block;
+    margin: 10px 0;
+}
+#footer .footer-links ul li a{
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+}
+#footer .footer-links .social{
+    padding: 20px 0;
+}
+#footer .footer-links .social img{
+    width: 36px;
+    margin-right: 10px;
+}
+#footer .footer-links .extras a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 5px 2px 5px 0;
+}
+#footer .footer-links img{
+    width: 100%;
+}
