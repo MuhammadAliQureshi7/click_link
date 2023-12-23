@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -457,4 +460,81 @@ body{
 }
 #footer .footer-links img{
     width: 100%;
+}
+@media screen and (max-width: 1199px){
+    #section .pricing .card.card-dark .badge{
+        top: 20px;
+    }
+}
+@media screen and (max-width: 991px){
+    .col-md-0{
+        display: none;
+    }
+    #section .banner .text-wrap h1{
+        font-size: 30px;
+    }
+    #section .products .text-wrap p{
+        font-size: 14px;
+    }
+    #section .about p{
+        font-size: 16px;
+    }
+    #section .services .panel .serve{
+        max-width: 47%;
+        flex: 0 0 47%;
+        -ms-flex: 0 0 47%;
+    }
+    #section .pricing .card,#section .pricing .card.card.card-dark{
+        margin-top: 30px;
+    }
+    #section .contact h2{
+        font-size: 45px;
+    }
+    #header .nav-collapse{
+        background-color: #000;
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease-in-out 0.3s;
+    }
+    #header .nav-collapse.show{
+        max-height: 100%;
+    }
+    #header .nav-custom ul{
+        display: block;  
+        padding: 10px 0;      
+    }
+    #header .nav-custom ul li{
+        border-bottom: 1px solid #fff;
+        padding: 5px 10px;
+    }
+    #header .btn-set{
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .nav-toggle{
+        color: #fff;
+        cursor: pointer;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 767px){
+    #section .banner{
+        height: auto;
+        padding: 100px 0;
+    }
+    #section .services .panel .serve {
+        max-width: 100%;
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+    }
+    #footer .copyright address,#footer .contact-details{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 575px){
+    #header .btn-set a.user{
+        max-width: 35px;
+        flex: 0 0 35px;
+        -ms-flex: 0 0 35px;
+    }
 }
