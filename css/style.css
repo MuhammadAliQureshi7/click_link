@@ -138,6 +138,14 @@ body{
 #section .products h3.gradient-text::before{
     color: #01D451;
 }
+#section .products h3.arabic{
+    padding-right: 30px;
+}
+#section .products h3.arabic::before{
+    content: "\f060";
+    right: 0;
+    left: auto;
+}
 #section .products .img-box img {
     width: 100%;
 }
